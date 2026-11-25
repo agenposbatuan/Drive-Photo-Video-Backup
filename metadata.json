@@ -1,0 +1,6 @@
+{
+  "name": "Google Drive Photo Backup",
+  "description": "Aplikasi web mobile-first untuk pencadangan foto asli ke Google Drive, galeri berbasis folder, antrean upload persisten, dan pemulihan upload terputus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

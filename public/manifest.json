@@ -1,0 +1,63 @@
+{
+  "name": "Drive Photo & Video Backup",
+  "short_name": "Drive Backup",
+  "description": "Aplikasi pencadangan foto dan video asli ke Google Drive dengan galeri berbasis folder dan antrean persisten.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["photo", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Galeri Foto",
+      "short_name": "Galeri",
+      "description": "Buka galeri foto Google Drive",
+      "url": "/?view=gallery",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Cadangkan Media",
+      "short_name": "Cadangkan",
+      "description": "Cadangkan foto dan video baru ke Google Drive",
+      "url": "/?view=backup",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Semua Video",
+      "short_name": "Video",
+      "description": "Lihat pustaka video Google Drive",
+      "url": "/?view=videos",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
