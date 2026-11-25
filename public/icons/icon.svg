@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="innerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background Squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+
+  <!-- Photo Card Frame -->
+  <g filter="url(#shadow)">
+    <rect x="100" y="116" width="312" height="280" rx="36" fill="#ffffff"/>
+    
+    <!-- Inner Photo Canvas -->
+    <rect x="120" y="136" width="272" height="240" rx="24" fill="url(#innerGrad)"/>
+    
+    <!-- Sun -->
+    <circle cx="316" cy="190" r="24" fill="#fbbf24"/>
+    
+    <!-- Mountain Background -->
+    <path d="M120 376 L210 270 L280 340 L340 280 L392 340 L392 376 Z" fill="#3b82f6" opacity="0.8"/>
+    <path d="M160 376 L250 290 L320 360 L392 300 L392 376 Z" fill="#60a5fa" opacity="0.9"/>
+  </g>
+
+  <!-- Cloud Backup Badge -->
+  <g filter="url(#shadow)" transform="translate(256, 350)">
+    <path d="M-60 10 A24 24 0 0 1 -40 -25 A38 38 0 0 1 20 -30 A30 30 0 0 1 55 -5 A24 24 0 0 1 50 20 L-50 20 A20 20 0 0 1 -60 10 Z" fill="#ffffff"/>
+    <!-- Upload Arrow -->
+    <path d="M0 -18 L18 0 L7 0 L7 12 L-7 12 L-7 0 L-18 0 Z" fill="#2563eb"/>
+  </g>
+</svg>
