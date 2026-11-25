@@ -8,13 +8,13 @@ const CACHE_NAME = 'gdrive-backup-shell-v1';
 
 // Aset inti App Shell untuk offline skeleton / fast boot
 const CORE_APP_SHELL = [
-  '/',
-  '/index.html',
-  '/manifest.webmanifest',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
-  '/icons/icon-maskable-512.png',
-  '/icons/icon.svg',
+  './',
+  'index.html',
+  'manifest.webmanifest',
+  'icons/icon-192.png',
+  'icons/icon-512.png',
+  'icons/icon-maskable-512.png',
+  'icons/icon.svg',
 ];
 
 // URLs/Domains yang TIDAK BOLEH disimpan ke Cache Storage sama sekali
